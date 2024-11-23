@@ -21,10 +21,12 @@ Models to run: XGBoost
 Predictors: I want you to select the predictors by referring to the data dictionary linked above.
 
 ## What I want you to do
-Create a set of python scripts, with filenames starting with two integers, incrementing the number with each subsequent file.
+
 1. Create a Python script to create a folder in ~/Documents/sandpit/py called "diabetes_bot". This folder will be the working directory for this project.
-2. In this subfolder, create a python virtual environment called env_diab.
-3. In this subfolder, create subfolders called: in, out, doc, rpt.
-4. If the data doesn't exist in the "in" subfolder, download the data, unzip it, remove the trailing space character in the file extension, remove the .zip file.
-5. Read in the data file.
-6. Referring to the SAS formats, create a format class.
+2. Save the Python script as ./00_setup.py.
+3. In this subfolder, create a python virtual environment called env_diab.
+4. In this subfolder, create subfolders called: in, out, doc, rpt.
+5. If the data doesn't exist in the "in" subfolder, download the data, unzip it, remove the trailing space character in the file extension, remove the .zip file.
+6. Read in the data file then save it as pickle.
+7. Referring to the SAS formats, create a format class and save it as a permanent file.
+8. Save the format class as a permanent file.
