@@ -8,6 +8,7 @@ Hey Claude 3 Sonnet,
 
 I want to create a project to analyse CDC BRFSS Diabetes data. First I'll give you the essential information. Then I'll explain what I would like you to do; see "What I want you to do".
 
+## Specification
 Language: Python
 Data: "https://www.cdc.gov/brfss/annual_data/2022/files/LLCP2022XPT.zip".
 Notes on the data:
@@ -28,5 +29,5 @@ Create a Python script that achieves the following:
 4. In this folder, create subfolders called: in, out, doc, rpt.
 5. If the data doesn't exist in the "in" subfolder, download the data, unzip it, remove the trailing space character in the file extension, remove the .zip file.
 6. Read in the data file then save it as pickle.
-7. Referring to the SAS formats, create a format class and save it as a permanent file.
+7. Referring to the SAS formats (see github link under the "Specification" heading), create a format class and save it as a permanent file.
 8. Store the format class as a file on disk.
