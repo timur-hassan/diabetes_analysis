@@ -31,6 +31,6 @@ Create a Python script that achieves the following:
 4. In this folder, create subfolders called: in, out, doc, rpt.
 5. Download the data (See "Data" under the Specification heading), unzip it, remove the trailing space character in the file extension, remove the .zip file.
 6. Read in the data file.
-7. Convert the IDATE column to datetime if it isn't already.
+7. The IDATE column has values like this: b'02032022'. Convert it to datetime.
 8. Referring to the SAS formats (see github link under the "Specification" heading), create a format class and save it as a permanent file.
 9. Store the format class as a file on disk.
