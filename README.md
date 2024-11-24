@@ -23,7 +23,8 @@ Create a Python script that achieves the following:
 3. In this folder, create subfolders called: in, out, doc, rpt.
 4. Set working directory to ~/Documents/sandpit/py/diabetes
 5. Check ~/Documents/sandpit/py/downloads for LLCP2022.XPT, if it's there copy it to ~/Documents/sandpit/py/diabetes_bot/in. Otherwise download it to ~/Documents/sandpit/py/download, unzip it, remove the trailing space character from the file extension, delete the original zip file. Show download progress bar.
-6. Read in the data file to a dataframe called _df_.
+6. Read in the data file to a dataframe called df. This dataframe should be stored in the workspace namespace so that once I've run the script you produce, I can continue to query the dataframe.
+DO NOT RUN THE FOLLOWING
 7. The IDATE column has values like this: b'02032022'. Check the column to see if it's m/d/y or d/m/y and convert it to datetime accordingly. Report your findings to stdout.
 8. Referring to the SAS formats (see github link under the "Specification" heading), create a format class and save it as a permanent file.
 9. Store the format class as a file on disk.
