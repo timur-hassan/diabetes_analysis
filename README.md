@@ -1,13 +1,3 @@
-# diabetes_analysis
-Analysis of CDC BRFSS survey data on diabetes
-
-This analysis is aided by use for Claude 3 Sonnet LLM running on Cursor IDE.
-
-
-Hey Claude 3 Sonnet,
-
-I want to create a project to analyse CDC BRFSS Diabetes data. First I'll give you the essential information. Then I'll explain what I would like you to do; see "What I want you to do".
-
 ## Specification
 
 Language: Python
