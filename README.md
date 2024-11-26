@@ -24,6 +24,6 @@ Create a Python script that achieves the following:
 4. Set working directory to ~/Documents/sandpit/py/diabetes
 5. Check ~/Documents/sandpit/py/downloads for LLCP2022.XPT, if it's there copy it to ~/Documents/sandpit/py/diabetes_bot/in. Otherwise download it to ~/Documents/sandpit/py/download, unzip it, remove the trailing space character from the file extension, delete the original zip file. Show download progress bar.
 6. Read in the data file to a dataframe called df. This dataframe should be stored in the workspace namespace so that once I've run the script you produce, I can continue to query the dataframe.
-7. The IDATE column has invalid values like this: b'07002022'. It is otherwise in mmddyyyy form surrounded by single quotes and lead by a "b". Fix the invalid values then convert it to datetime.
+7. The IDATE column is "object" dtype. It has invalid values like this: b'07002022' which should be b'07012022'. It is otherwise in mmddyyyy form surrounded by single quotes and lead by a "b". Fix the invalid values then convert it to datetime.
 8. Referring to the SAS formats (see github link under the "Specification" heading), create a format class and save it as a permanent file.
 9. Store the format class as a file on disk.
